@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="환영합니다"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/school"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="주례여고의 홈페이지를 찾아주셔서 감사드리며 환영합니다.\n
+미래 사회의 중심은 우리의 아이들입니다.\n
+우리 아이들은 각자의 내면에 무한한 잠재력과 나름대로의 특별한 것을 가지고 있습니다. \n
+이들의 잠재력을 이끌어 내고 미래 사회의 핵심 역량을 키워야합니다.\n
+교육의 궁극적 목표는 미래 세대인 우리 아이들을 가치 있는 사람으로 키우는 것입니다. \n
+교육의 가장 중요한 축을 담당하고 있는 학교로서 무한한 책임감을 가지고, 모든 교직원들이 합심하여 학생들의 행복한 삶과 꿈을 향한 사다리를 한 칸 한 칸 만들어 가고 있습니다.\n
+우리학교는 학생들이 끊임없는 질문과 도전 속에 친구들과 머리를 맞대고 무한한 상상력으로 새로운 것을 그리면서, 마음껏 배우고 역량을 키우는 배움터가 될 것입니다.\n
+꿈과 역량으로 자신의 미래를 열어가는 인재의 산실이 될 수 있도록 애정 어린 관심과 협조를 부탁드립니다. \n
+감사합니다.\n\n
+주례여자고등학교교직원 일동"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

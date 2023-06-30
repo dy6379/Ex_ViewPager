@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:text="학교 소개"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView"
+                android:src="@drawable/school"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:text="        총 41학급, 학생 989명을 위한 선진형 교과 교실제 학교로 보람고등학교는 학생들을 위해 편안하고 편리하며 학생들의 다양한 활동을 담으며 이끌어 낼수 있는 공간으로 탄생했다. 홈베이스를 공간적, 시간적으로 연결하는 대공간의 Grand stair를 학생들의 생활중심공간에 두어 연주, 발표놀이 등 다양한 활동이 일어날 수 있도록 했다. 학교가 교육청 옆에 위치하고 있기때문에 외관은 새로움과 명확한 상징성을 가지도록 계획했다. 일반적인 학교의 형태를 탈피하여 리듬감 있는 입면을 구성하였으며, 도서관은 역동적인 조형으로 강조하였다. 전망 엘리베이터와 매층 설치된 야외 전망데크, 시원하게 트인 식당의 창으로 학교 옆을 흐르는 금강의 물줄기를 바라볼수 있다.\n\n
+      The Boram High School has a total of 41 classrooms and could accommodate 989 students and the students move from one classroom to another to participate their classes and thus, the school serves a role of a futuristic high school that holds the various vibrant activities of students with comfort and convenience. The Grand Staircase is located in the hall just next to the center of student’s school life where a visual and special connection of the home base happens and this will incite a variety of activities such as musical performances, presentations and discussions.The school is located next to the Ministry of Education and thus, the façade is designed to bring a clear but new symbolic meaning. To escape a dull and ordinary form of typical schools, a rhythmic pattern was given in the façade and the library is accentuated with a dynamic form.Through the open-view elevator and the exterior deck installed in each and every floor, the users could see the streams of the Gumgang river flowing next to the school."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
